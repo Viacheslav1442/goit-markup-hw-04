@@ -172,8 +172,8 @@ img {
 
 
 .hero-main {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7));
-    background-image: url(../images/people-office\ 1.jpg);
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
