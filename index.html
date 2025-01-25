@@ -22,15 +22,25 @@
             <nav class="header-nav">
                 <a class="logo header-logo" href="/index.html">Web<span class="logo-part">Studio</span></a>
                 <ul class="nav-list">
-                    <li><a class="nav-link current" href="./index.html">Studio</a></li>
-                    <li><a class="nav-link" href="#">Portfolio</a></li>
-                    <li><a class="nav-link" href="#">Contacts</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link current" href="./index.html">Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
                 </ul>
             </nav>
             <address class="contacts">
                 <ul class="contacts-list">
-                    <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li class="contacts-item">
+                        <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
                 </ul>
             </address>
         </div>
@@ -49,44 +59,28 @@
             <div class="container">
                 <h2 class="visually-hidden">Advantages</h2>
                 <ul class="advantages-list">
-                    <li>
-                        <div class="icon-antenna">
-                            <svg width="64" height="64">
-                                <use href="./images/icons.svg#antenna"></use>
-                            </svg>
-                        </div>
-                        <h3>Strategy</h3>
-                        <p>Our goal is to identify the business problem to walk away with the perfect and creative
-                            solution.</p>
+                    <li class="advantages-item">
+                        <h3 class="advantages-title">Strategy</h3>
+                        <p class="advantages-text">Our goal is to identify the business problem to walk away with the
+                            perfect and creative solution.
+                        </p>
                     </li>
-                    <li>
-                        <div class="icon-clock">
-                            <svg width="64" height="64">
-                                <use href="./images/icons.svg#icon-clock"></use>
-                            </svg>
-                        </div>
-                        <h3>Punctuality</h3>
-                        <p>Bring the key message to the brand's audience for the best price within the shortest possible
+                    <li class="advantages-item">
+                        <h3 class="advantages-title">Punctuality</h3>
+                        <p class="advantages-text">Bring the key message to the brand's audience for the best price
+                            within the shortest possible
                             time.</p>
                     </li>
-                    <li>
-                        <div class="icon-diagram">
-                            <svg width="64" height="64">
-                                <use href="./images/icons.svg#icon-diagram"></use>
-                            </svg>
-                        </div>
-                        <h3>Diligence</h3>
-                        <p>Research and confirm brands that present the strongest digital growth opportunities and
-                            minimize risk.</p>
+                    <li class="advantages-item">
+                        <h3 class="advantages-title">Diligence</h3>
+                        <p class="advantages-text">Research and confirm brands that present the strongest digital growth
+                            opportunities and minimize
+                            risk.</p>
                     </li>
-                    <li>
-                        <div class="icon-astronaut">
-                            <svg width="64" height="64">
-                                <use href="./images/icons.svg#icon-astronaut"></use>
-                            </svg>
-                        </div>
-                        <h3>Technologies</h3>
-                        <p>Design practice focused on digital experiences. We bring forth a deep passion for
+                    <li class="advantages-item">
+                        <h3 class="advantages-title">Technologies</h3>
+                        <p class="advantages-text">Design practice focused on digital experiences. We bring forth a deep
+                            passion for
                             problem-solving.</p>
                     </li>
                 </ul>
@@ -95,167 +89,98 @@
 
         <section class="our-team" style="padding: 120px 0;">
             <div class="container">
-                <h2 style="margin-bottom: 72px;">Our Team</h2>
-                <ul class="our-team-list" style="display: flex; gap: 24px; list-style: none; padding: 0;">
-                    <li style="flex-basis: calc((100% - 72px) / 4);">
-                        <img src="./images/team-1.jpg" alt="Mark">
-                        <div style="padding: 32px 0; text-align: center;">
-                            <h3>Mark Guerrero</h3>
-                            <p>Product Designer</p>
-                            <ul
-                                style="display: flex; justify-content: center; gap: 24px; list-style: none; padding: 0;">
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
+                <h2 class="our-team-title" style="margin-bottom: 72px;">Our Team</h2>
+                <ul class="our-team-list" style="display: flex; gap: 24px; list-style: none; padding: 0; margin: 0;">
+                    <li class="our-team-item" style="flex-basis: calc((100% - 72px) / 4); border-radius: 0 0 4px 4px;">
+                        <img width="264" height="260" src="./images/team-1.jpg" alt="Mark">
+                        <div class="our-team-content" style="padding: 32px 0;">
+                            <h3 class="our-team-name" style="text-align: center; margin-bottom: 8px;">Mark Guerrero</h3>
+                            <p class="our-team-text" style="text-align: center;">Product Designer</p>
                         </div>
                     </li>
-                    <li style="flex-basis: calc((100% - 72px) / 4);">
-                        <img src="./images/team-2.jpg" alt="Tom">
-                        <div style="padding: 32px 0; text-align: center;">
-                            <h3>Tom Ford</h3>
-                            <p>Frontend Developer</p>
-                            <ul
-                                style="display: flex; justify-content: center; gap: 24px; list-style: none; padding: 0;">
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
+                    <li class="our-team-item" style="flex-basis: calc((100% - 72px) / 4); border-radius: 0 0 4px 4px;">
+                        <img width="264" height="260" src="./images/team-2.jpg" alt="Tom">
+                        <div class="our-team-content" style="padding: 32px 0;">
+                            <h3 class="our-team-name" style="text-align: center; margin-bottom: 8px;">Tom Ford</h3>
+                            <p class="our-team-text" style="text-align: center;">Frontend Developer</p>
                         </div>
                     </li>
-                    <li style="flex-basis: calc((100% - 72px) / 4);">
-                        <img src="./images/team-3.jpg" alt="Camila">
-                        <div style="padding: 32px 0; text-align: center;">
-                            <h3>Camila Garcia</h3>
-                            <p>Marketing</p>
-                            <ul
-                                style="display: flex; justify-content: center; gap: 24px; list-style: none; padding: 0;">
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-facebook"></use>
-                                        </svg></a></li>
-                                <li><a href="#"><svg width="24" height="24">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
-                                        </svg>
-                                <li class="social-item" style="width: 24px; height: 24px;">
-                                    <a class="social-link" href="#">
-                                        <svg class="icon-linkedin" width="24" height="24">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-
-                                <section class="our-portfolio">
-                                    <div class="container">
-                                        <h2 class="our-portfolio-title">Our Portfolio</h2>
-                                        <ul class="our-portfolio-list">
-                                            <li class="our-portfolio-item">
-                                                <img width="360" src="./images/portfolio-1.jpg" alt="banking app">
-                                                <div class="our-portfolio-item-container">
-                                                    <h3 class="our-portfolio-name">Banking App</h3>
-                                                    <p class="our-portfolio-text">App</p>
-                                                </div>
-                                            </li>
-                                            <li class="our-portfolio-item">
-                                                <img width="360" src="./images/portfolio-2.jpg" alt="phone">
-                                                <div class="our-portfolio-item-container">
-                                                    <h3 class="our-portfolio-name">Cashless Payment</h3>
-                                                    <p class="our-portfolio-text">Marketing</p>
-                                                </div>
-                                            </li>
-                                            <li class="our-portfolio-item">
-                                                <img width="360" src="./images/portfolio-3.jpg" alt="meditation app">
-                                                <div class="our-portfolio-item-container">
-                                                    <h3 class="our-portfolio-name">Meditation App</h3>
-                                                    <p class="our-portfolio-text">App</p>
-                                                </div>
-                                            </li>
-                                            <li class="our-portfolio-item">
-                                                <img width="360" src="./images/portfolio-4.jpg" alt="Taxi">
-                                                <div class="our-portfolio-item-container">
-                                                    <h3 class="our-portfolio-name">Taxi Service</h3>
-                                                    <p class="our-portfolio-text">Marketing</p>
-                                                </div>
-                                            </li>
-                                            <li class="our-portfolio-item">
-                                                <img width="360" src="./images/portfolio-5.jpg" alt="Screen">
-                                                <div class="our-portfolio-item-container">
-                                                    <h3 class="our-portfolio-name">Screen Illustrations</h3>
-                                                    <p class="our-portfolio-text">Design</p>
-                                                </div>
-                                            </li>
-                                            <li class="our-portfolio-item">
-                                                <img width="360" src="./images/portfolio-6.jpg" alt="girl">
-                                                <div class="our-portfolio-item-container">
-                                                    <h3 class="our-portfolio-name">Online Courses</h3>
-                                                    <p class="our-portfolio-text">Marketing</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </section>
-
-                                <footer class="page-footer">
-                                    <div class="container">
-                                        <a class="logo footer-logo" href="/index.html">Web<span
-                                                class="logo-part">Studio</span></a>
-                                        <p class="footer-text">Increase the flow of customers and sales for your
-                                            business with digital marketing &
-                                            growth solutions.</p>
-                                    </div>
-                                </footer>
-                                </a>
+                    <li class="our-team-item" style="flex-basis: calc((100% - 72px) / 4); border-radius: 0 0 4px 4px;">
+                        <img width="264" height="260" src="./images/team-3.jpg" alt="Camila">
+                        <div class="our-team-content" style="padding: 32px 0;">
+                            <h3 class="our-team-name" style="text-align: center; margin-bottom: 8px;">Camila Garcia</h3>
+                            <p class="our-team-text" style="text-align: center;">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="our-team-item" style="flex-basis: calc((100% - 72px) / 4); border-radius: 0 0 4px 4px;">
+                        <img width="264" height="260" src="./images/team-4.jpg" alt="Daniel">
+                        <div class="our-team-content" style="padding: 32px 0;">
+                            <h3 class="our-team-name" style="text-align: center; margin-bottom: 8px;">Daniel Wilson</h3>
+                            <p class="our-team-text" style="text-align: center;">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
-            </li>
-            </ul>
+        </section>
+
+        <section class="our-portfolio">
+            <div class="container">
+                <h2 class="our-portfolio-title">Our Portfolio</h2>
+                <ul class="our-portfolio-list">
+                    <li class="our-portfolio-item">
+                        <img width="360" src="./images/portfolio-1.jpg" alt="banking app">
+                        <div class="our-portfolio-item-container">
+                            <h3 class="our-portfolio-name">Banking App</h3>
+                            <p class="our-portfolio-text">App</p>
+                        </div>
+                    </li>
+                    <li class="our-portfolio-item">
+                        <img width="360" src="./images/portfolio-2.jpg" alt="phone">
+                        <div class="our-portfolio-item-container">
+                            <h3 class="our-portfolio-name">Cashless Payment</h3>
+                            <p class="our-portfolio-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="our-portfolio-item">
+                        <img width="360" src="./images/portfolio-3.jpg" alt="meditation app">
+                        <div class="our-portfolio-item-container">
+                            <h3 class="our-portfolio-name">Meditation App</h3>
+                            <p class="our-portfolio-text">App</p>
+                        </div>
+                    </li>
+                    <li class="our-portfolio-item">
+                        <img width="360" src="./images/portfolio-4.jpg" alt="Taxi">
+                        <div class="our-portfolio-item-container">
+                            <h3 class="our-portfolio-name">Taxi Service</h3>
+                            <p class="our-portfolio-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="our-portfolio-item">
+                        <img width="360" src="./images/portfolio-5.jpg" alt="Screen">
+                        <div class="our-portfolio-item-container">
+                            <h3 class="our-portfolio-name">Screen Illustrations</h3>
+                            <p class="our-portfolio-text">Design</p>
+                        </div>
+                    </li>
+                    <li class="our-portfolio-item">
+                        <img width="360" src="./images/portfolio-6.jpg" alt="girl">
+                        <div class="our-portfolio-item-container">
+                            <h3 class="our-portfolio-name">Online Courses</h3>
+                            <p class="our-portfolio-text">Marketing</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <a class="logo footer-logo" href="/index.html">Web<span class="logo-part">Studio</span></a>
+            <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
+                growth solutions.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
