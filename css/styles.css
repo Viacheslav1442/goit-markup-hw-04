@@ -550,6 +550,8 @@ img {
 }
 
 .social-container-footer {
+    display: flex;
+    align-items: baseline;
     margin-top: 40px;
     position: relative;
     overflow: hidden;
