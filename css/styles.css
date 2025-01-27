@@ -508,15 +508,15 @@ our-team-item:first-child {
 .page-footer {
     padding: 100px 0;
     background-color: #2E2F42;
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
 }
 
 .container {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
 }
 
 .footer-logo {
