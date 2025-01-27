@@ -238,6 +238,7 @@ img {
 
 .advantages {
     padding: 120px 0;
+    background-size: cover;
 }
 
 .container {
@@ -342,7 +343,7 @@ img {
     text-align: center;
 }
 
-our-team-item:first-child {
+.our-team-item:first-child {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -515,14 +516,13 @@ our-team-item:first-child {
 
 .footer-wrapper {
     display: flex;
+    align-items: baseline;
 }
 
 .container {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    align-items: baseline;
 }
 
 .footer-logo {
