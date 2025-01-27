@@ -520,6 +520,7 @@ img {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    margin-right: 120px;
 }
 
 .foot-logo {
@@ -530,7 +531,6 @@ img {
     font-weight: 700;
     color: #4D5AE5;
     text-decoration: none;
-    margin-right: 120px;
 
 }
 
