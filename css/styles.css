@@ -173,11 +173,9 @@ img {
 
 .hero-main {
     max-width: 1440px;
-    background-image: url(../images/people-office-1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7));
     background-position: center;
     display: flex;
     justify-items: center;
@@ -612,6 +610,8 @@ img {
 .social-link-footer:focus {
     background-color: #31d0aa;
 }
+
+
 
 .social-icon {
     width: 24px;
