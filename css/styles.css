@@ -189,6 +189,7 @@ img {
     padding: 0 15px;
     margin: 0 auto;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -312,6 +313,7 @@ img {
 
 .container {
     width: 1158px;
+    text-align: center;
 }
 
 .our-team-title {
@@ -323,6 +325,7 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    width: 100%;
 }
 
 .our-team-list {
