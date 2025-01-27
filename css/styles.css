@@ -556,38 +556,29 @@ img {
     font-weight: 400;
     line-height: 1.5;
     color: #F4F4FD;
-    text-align: left;
 }
 
 .social-container-footer {
     display: flex;
-    align-items: baseline;
-    margin-top: 40px;
-    margin-right: 120px;
-    position: relative;
-    overflow: hidden;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    flex-direction: column;
+    width: 208px;
+    height: 80px;
 }
 
 .social-title-footer {
-    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 150%;
     letter-spacing: 0.02em;
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    padding: 40px 32px;
-    background-color: #4d5ae5;
-    color: #FFFFFF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #ffffff;
+    display: block;
+    margin-bottom: 16px;
 }
 
 .social-list-footer {
     display: flex;
     gap: 16px;
+    width: 208px;
 }
 
 
