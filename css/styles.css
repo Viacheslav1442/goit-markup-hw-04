@@ -522,6 +522,10 @@ img {
     padding: 0 15px;
 }
 
+.logo-container {
+    margin-right: 120px;
+}
+
 .foot-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -562,7 +566,6 @@ img {
     flex-direction: column;
     width: 208px;
     height: 80px;
-    margin-right: 120px;
 }
 
 .social-title-footer {
