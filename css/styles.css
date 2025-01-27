@@ -513,7 +513,6 @@ our-team-item:first-child {
 
 .footer-wrapper {
     display: flex;
-    flex-direction: column;
 }
 
 .container {
