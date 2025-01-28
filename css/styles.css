@@ -245,10 +245,13 @@ img {
 .advantages {
     padding: 120px 0;
     background-size: cover;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-advantages {
     max-width: 1158px;
+    margin: 0 auto;
 }
 
 .icon {
@@ -281,6 +284,7 @@ img {
     display: flex;
     gap: 24px;
     flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -298,7 +302,7 @@ img {
     line-height: 1.2em;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-align: justify;
+    text-align: center;
 }
 
 
@@ -307,7 +311,7 @@ img {
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: justify;
+    text-align: center;
 }
 
 .our-team {
@@ -320,6 +324,7 @@ img {
 .container-team {
     width: 1158px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .our-team-title {
@@ -339,7 +344,6 @@ img {
     height: 264px;
     gap: 24px;
     justify-content: space-around;
-    list-style: none;
 }
 
 .our-team-item {
@@ -347,6 +351,8 @@ img {
     border-radius: 0 0 4px 4px;
     background-color: #FFFFFF;
     text-align: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .our-team-item:first-child {
