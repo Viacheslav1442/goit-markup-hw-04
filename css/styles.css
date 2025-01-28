@@ -337,9 +337,11 @@ img {
     display: flex;
     gap: 24px;
     justify-content: center;
+    text-align: center;
     list-style: none;
     padding: 0;
     margin: 0;
+
 }
 
 .our-team-item {
