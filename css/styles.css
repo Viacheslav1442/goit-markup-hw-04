@@ -505,19 +505,16 @@ img {
 }
 
 .page-footer {
-    max-width: 1440px;
-    margin: 0 auto;
+    padding: 100px 0;
     background-color: #2E2F42;
 }
 
 .footer-wrapper {
     display: flex;
-    align-items: baseline;
 }
 
 .container {
     max-width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
 }
 
@@ -574,8 +571,12 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #ffffff;
-    display: block;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
     margin-bottom: 16px;
 }
 
