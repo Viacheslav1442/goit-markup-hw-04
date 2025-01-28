@@ -52,16 +52,15 @@ img {
 
 
 .header-container {
-    max-width: 1158px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logo {
@@ -155,7 +154,6 @@ img {
 
 .contacts-link {
     display: block;
-    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -168,23 +166,30 @@ img {
     color: #404BBF;
 }
 
+.contacts-item {
+    font-size: 14px;
+    color: #666;
+}
 
 
 
 .hero-main {
     max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-right: auto;
+    margin-left: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-items: center;
-    padding: 188px 0;
+    align-items: center;
     background-color: #2E2F42;
-    height: 600px;
 }
 
-.container {
+.container-hero {
     max-width: 1470px;
     padding: 0 15px;
     margin: 0 auto;
@@ -194,7 +199,6 @@ img {
 
 
 .effective-title {
-    margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     max-width: 496px;
     margin: 0 auto;
@@ -205,6 +209,10 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
 
 }
 
@@ -218,6 +226,7 @@ img {
     color: #ffffff;
     cursor: pointer;
     border: none;
+    border-radius: 4px;
     min-width: 169px;
     min-height: 56px;
     border-radius: 4px;
@@ -238,7 +247,7 @@ img {
     background-size: cover;
 }
 
-.container {
+.container-advantages {
     max-width: 1158px;
 }
 
@@ -246,7 +255,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 112px;
+    width: 264px;
     height: 112px;
     background-color: #f4f4fd;
     border-radius: 4px;
@@ -271,12 +280,13 @@ img {
 .advantages-list {
     display: flex;
     gap: 24px;
-    list-style: none;
+    flex-direction: row;
 }
 
 
 .advantages-item {
     width: calc((100% - 72px) / 4);
+    padding-bottom: 8px;
 }
 
 
@@ -294,7 +304,6 @@ img {
 
 .advantages-text {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: #434455;
@@ -304,10 +313,11 @@ img {
 .our-team {
     background-color: #F4F4FD;
     text-align: center;
-    height: 732px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.container {
+.container-team {
     width: 1158px;
     text-align: center;
 }
@@ -321,16 +331,15 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    width: 100%;
 }
 
 .our-team-list {
     display: flex;
+    width: 264px;
+    height: 264px;
     gap: 24px;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .our-team-item {
@@ -376,6 +385,8 @@ img {
 }
 
 .social-icons {
+    width: 232px;
+    height: 40px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -410,13 +421,13 @@ img {
 
 
 .our-portfolio {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-portfolio-title {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11em;
     letter-spacing: 0.02em;
     text-align: center;
@@ -442,9 +453,10 @@ img {
     margin-right: 0;
 }
 
-.container {
-    width: 1158px;
-    margin: auto;
+.container-portfolio {
+    width: 1128px;
+    margin: 0 auto;
+    box-sizing: border-box;
 
 }
 
@@ -460,8 +472,6 @@ img {
     column-gap: 24px;
     row-gap: 48px;
     list-style: none;
-    padding: 0;
-    margin: 0;
     background-color: #FFFFFF;
 }
 
@@ -507,7 +517,8 @@ img {
 }
 
 .page-footer {
-    padding: 100px 0;
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #2E2F42;
 }
 
@@ -530,10 +541,13 @@ img {
     display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #4D5AE5;
     text-decoration: none;
+    width: 264px;
 
 }
 
@@ -553,12 +567,11 @@ img {
 
 .footer-text {
     max-width: 264px;
-    font-family: "Roboto",
-        sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     color: #F4F4FD;
+    margin-right: 120px;
 }
 
 .social-container-footer {
@@ -571,7 +584,7 @@ img {
 .social-title-footer {
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
     display: block;
