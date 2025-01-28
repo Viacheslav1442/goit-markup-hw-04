@@ -316,18 +316,16 @@ img {
     padding: 120px 0;
 }
 
-.container {
-    width: 1158px;
-}
+
 
 .our-team-title {
-    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11em;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
 .our-team-list {
@@ -348,10 +346,7 @@ img {
 .our-team-content {
     padding: 32px 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
+
 }
 
 .our-team-content img {
