@@ -576,7 +576,6 @@ img {
     letter-spacing: 0.02em;
     color: #fff;
     display: flex;
-    justify-content: center;
     flex-direction: row;
     gap: 24px;
     margin-bottom: 16px;
