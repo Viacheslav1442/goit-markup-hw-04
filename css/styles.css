@@ -313,6 +313,7 @@ img {
 
 .our-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .container {
@@ -322,7 +323,6 @@ img {
 .our-team-title {
     margin-bottom: 72px;
     font-size: 36px;
-    font-weight: 500;
     line-height: 1.11em;
     letter-spacing: 0.02em;
     text-align: center;
@@ -333,22 +333,17 @@ img {
 .our-team-list {
     display: flex;
     gap: 24px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .our-team-item {
-    width: 264px;
-    height: 428px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    background-color: #ffffff;
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    background-color: #FFFFFF;
-    text-align: center;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 
 .our-team-content {
     padding: 32px 0;
@@ -356,7 +351,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 8px;
 }
 
