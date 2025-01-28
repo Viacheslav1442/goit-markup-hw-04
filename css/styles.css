@@ -317,16 +317,16 @@ img {
 .our-team {
     background-color: #F4F4FD;
     text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    height: 732px;
 }
 
-.container-team {
+.container {
     width: 1158px;
     text-align: center;
 }
 
 .our-team-title {
+    margin-bottom: 72px;
     font-size: 36px;
     font-weight: 500;
     line-height: 1.11em;
@@ -334,17 +334,16 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    margin-bottom: 72px;
+    width: 100%;
 }
 
 .our-team-list {
     display: flex;
-    width: 264px;
-    height: 428px;
     gap: 24px;
     justify-content: center;
     list-style: none;
-
+    padding: 0;
+    margin: 0;
 }
 
 .our-team-item {
@@ -354,7 +353,7 @@ img {
     text-align: center;
 }
 
-.our-team-item:first-child {
+our-team-item:first-child {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -363,15 +362,11 @@ img {
 
 .our-team-content {
     padding: 32px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .our-team-content img {
     width: 264px;
-    height: 428px;
+    height: 260px;
 }
 
 .our-team-name {
@@ -386,17 +381,14 @@ img {
 
 .our-team-text {
     text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 8px;
 }
 
 .social-icons {
-    width: 232px;
-    height: 40px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -428,7 +420,6 @@ img {
     width: 16px;
     height: 16px;
 }
-
 
 .our-portfolio {
     padding-top: 120px;
