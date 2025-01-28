@@ -338,7 +338,6 @@ img {
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
 
 .our-team-item {
@@ -346,14 +345,10 @@ img {
     border-radius: 0 0 4px 4px;
     background-color: #FFFFFF;
     text-align: center;
-}
-
-.our-team-item:first-child {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 
 .our-team-content {
     padding: 32px 0;
@@ -362,6 +357,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 }
 
 .our-team-content img {
@@ -372,7 +368,6 @@ img {
 
 .our-team-name {
     text-align: center;
-    margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2em;
@@ -387,12 +382,14 @@ img {
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 24px;
+    flex-direction: row;
 }
 
 .social-icons li {
