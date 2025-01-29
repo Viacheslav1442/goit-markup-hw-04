@@ -519,8 +519,6 @@ img {
 .logo-container {
     flex-direction: column;
     background-color: #2e2f42;
-    min-height: 312px;
-    padding-left: 156px;
     margin-right: 120px;
 }
 
