@@ -312,11 +312,6 @@ img {
     padding: 120px 0;
 }
 
-.container {
-    margin: 0 auto;
-}
-
-
 
 .our-team-title {
     font-size: 36px;
@@ -514,7 +509,7 @@ img {
     display: flex;
 }
 
-.container {
+.container-foot {
     max-width: 1440px;
     margin-right: 120px;
 }
