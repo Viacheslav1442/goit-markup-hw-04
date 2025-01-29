@@ -510,11 +510,13 @@ img {
 
 .footer-wrapper {
     max-width: 1440px;
-    margin-right: 120px;
     align-items: baseline;
     display: flex;
 }
 
+.container {
+    margin-right: 120px;
+}
 
 
 .foot-logo {
