@@ -40,6 +40,9 @@ img {
 
 .container {
     max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -299,7 +302,6 @@ img {
     line-height: 1.2em;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-align: center;
 }
 
 
@@ -518,7 +520,7 @@ img {
 }
 
 .container {
-    max-width: 1158px;
+    max-width: 1440px;
 }
 
 .logo-container {
@@ -575,7 +577,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    display: flex;
     flex-direction: row;
     gap: 24px;
     margin-bottom: 16px;
