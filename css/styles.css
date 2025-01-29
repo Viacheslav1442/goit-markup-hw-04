@@ -512,6 +512,10 @@ img {
     max-width: 1440px;
     align-items: baseline;
     display: flex;
+
+}
+
+.logo-container {
     margin-right: 120px;
 }
 
