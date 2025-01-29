@@ -312,6 +312,10 @@ img {
     padding: 120px 0;
 }
 
+.social-container {
+    margin: 0 auto;
+}
+
 
 .our-team-title {
     font-size: 36px;
@@ -436,7 +440,7 @@ img {
     margin-right: 0;
 }
 
-.container-portfolio {
+.portfolio-container {
     width: 1128px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -505,14 +509,12 @@ img {
 }
 
 .footer-wrapper {
+    max-width: 1440px;
+    margin-right: 120px;
     align-items: baseline;
     display: flex;
 }
 
-.container-foot {
-    max-width: 1440px;
-    margin-right: 120px;
-}
 
 
 .foot-logo {
