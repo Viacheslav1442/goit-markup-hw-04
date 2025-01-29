@@ -189,7 +189,12 @@ img {
     background-color: #2E2F42;
 }
 
-
+.container-hero {
+    max-width: 1470px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .effective-title {
