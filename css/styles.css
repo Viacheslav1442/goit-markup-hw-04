@@ -312,7 +312,7 @@ img {
     padding: 120px 0;
 }
 
-.social-container {
+.team-container {
     margin: 0 auto;
 }
 
@@ -512,7 +512,10 @@ img {
     max-width: 1440px;
     align-items: baseline;
     display: flex;
+    margin-right: 120px;
 }
+
+
 
 
 .foot-logo {
